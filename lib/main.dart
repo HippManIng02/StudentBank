@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:adaptive_theme/adaptive_theme.dart';
+import 'package:studentbank/views/screens/debut/home1.dart';
 import 'views/widgets/background.dart';
 
 void main() {
@@ -26,7 +27,8 @@ class MyApp extends StatelessWidget {
         title: 'Student bank',
         theme: theme,
         darkTheme: darkTheme,
-        home: const FirstPage(title : "Student Bank"),
+       // home: const FirstPage(title : "Student Bank"),
+        home: const Home1Page(),
         debugShowCheckedModeBanner: false,
       ),
     );
