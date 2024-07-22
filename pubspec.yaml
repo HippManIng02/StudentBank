@@ -64,6 +64,7 @@ flutter:
       - assets/images/background.png
       - assets/images/studbank.png
       - assets/images/steppers.png 
+      - assets/images/backimg-books.png
 
   # To add assets to your application, add an assets section, like this:
   # assets:
